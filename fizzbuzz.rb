@@ -1,11 +1,11 @@
 def fizzbuzz(number)
   if (number % 3) == 0 && (number % 5) == 0 
-    puts "FizzBuzz"
+    return "FizzBuzz"
   elsif number % 3 == 0 
-   puts "Fizz"
+   return "Fizz"
  elsif number % 5 == 0 
-    puts "Buzz"
+    return "Buzz"
  else 
-   puts "The number is not divisible by 3 or 5"
+   return "The number is not divisible by 3 or 5"
  end
 end

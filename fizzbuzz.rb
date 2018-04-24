@@ -2,9 +2,9 @@ def fizzbuzz(number)
   if (number % 3) == 0 && (number % 5) == 0 
     puts"fizzbuzz"
   elsif number % 3 == 0 
-   puts "fizz"
+   puts "Fizz"
  elsif number % 5 == 0 
-    puts "buzz"
+    puts "Buzz"
  else 
    puts "The number is not divisible by 3 or 5"
  end
